@@ -1,0 +1,21 @@
+<com.liping.touchdemo.view.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.liping.touchdemo.fragments.child.TopFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:background="@android:color/holo_orange_light"
+            android:layout_width="match_parent"
+            android:layout_height="1250dp"/>
+        <TextView
+            android:gravity="center"
+            android:text="上啦加载更多"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</com.liping.touchdemo.view.MyScrollView>
